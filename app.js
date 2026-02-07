@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer((req, res) => {
-  res.write("CI/CD Pipeline Working Successfully");
+  res.write("CI/CD Pipeline Using Webhook");
   res.end();
 }).listen(3000);
 
